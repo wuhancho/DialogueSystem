@@ -1,0 +1,161 @@
+/* ===== ROOT ===== */
+.root {
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+/* ===== TOOLBAR ===== */
+.toolbar {
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 8px;
+    background-color: #2d2d2d;
+    border-bottom-width: 1px;
+    border-bottom-color: #1a1a1a;
+    height: 30px;
+}
+
+.toolbar-button {
+    width: 28px;
+    height: 22px;
+    margin-left: 4px;
+    font-size: 14px;
+    -unity-font-style: bold;
+}
+
+#zoom-label {
+    color: #aaaaaa;
+    font-size: 11px;
+    margin-right: 8px;
+}
+
+/* ===== SCROLL / CANVAS ===== */
+.graph-scroll {
+    flex-grow: 1;
+}
+
+.canvas {
+    background-color: #1e1e1e;
+}
+
+/* ===== NODO BASE ===== */
+.node {
+    border-radius: 8px;
+    border-width: 2px;
+    padding: 12px;
+    min-width: 200px;
+}
+
+/* ===== NPC ===== */
+.node-npc {
+    background-color: rgba(50, 50, 60, 0.95);
+    border-color: #5a5a6e;
+}
+
+.node-npc:hover {
+    border-color: #8888aa;
+}
+
+/* ===== PLAYER ===== */
+.node-player {
+    background-color: rgba(30, 55, 90, 0.95);
+    border-color: #3a7ecf;
+}
+
+.node-player:hover {
+    border-color: #6aaeef;
+}
+
+/* ===== CONTENIDO DEL NODO ===== */
+.node-id {
+    font-size: 12px;
+    -unity-font-style: bold;
+    color: #ffffff;
+    margin-bottom: 4px;
+}
+
+.node-separator {
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.15);
+    margin-top: 2px;
+    margin-bottom: 6px;
+}
+
+.node-dialogue-label {
+    font-size: 10px;
+    color: #aaaaaa;
+    margin-bottom: 2px;
+}
+
+.node-text TextField {
+    white-space: normal;
+}
+
+.node-text .unity-text-field__input {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    color: #dddddd;
+    font-size: 11px;
+    padding: 6px;
+    min-height: 40px;
+    white-space: normal;
+}
+
+/* ===== BARRA DE BOTONES ===== */
+.node-button-bar {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.node-button-bar Button {
+    flex-grow: 1;
+    height: 22px;
+    margin: 0 2px;
+    border-radius: 4px;
+    font-size: 11px;
+    -unity-font-style: bold;
+}
+
+.btn-delete {
+    background-color: #8b2020;
+    color: #ffffff;
+}
+
+.btn-delete:hover {
+    background-color: #b33030;
+}
+
+.btn-link {
+    background-color: #2d6a4f;
+    color: #ffffff;
+}
+
+.btn-link:hover {
+    background-color: #40916c;
+}
+
+.btn-cancel {
+    background-color: #b08020;
+    color: #ffffff;
+}
+
+.btn-add {
+    background-color: #1a5276;
+    color: #ffffff;
+}
+
+.btn-add:hover {
+    background-color: #2980b9;
+}
+
+/* ===== TOGGLE SPEAKER ===== */
+.node-speaker-toggle {
+    margin-top: 6px;
+}
+
+.node-speaker-toggle Label {
+    color: #cccccc;
+    font-size: 10px;
+}

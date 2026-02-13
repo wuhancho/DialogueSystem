@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e960bec5b5236749b281289ea60fa82, type: 3}
+  m_Name: BombDPoli No
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 2451598404545043317}
+  - {fileID: 2358828172090697694}
+  - {fileID: 575325061013111199}
+  isTrueDialogue: 0
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &575325061013111199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 3
+  m_EditorClassIdentifier: 
+  uniqueID: 3
+  isPlayerSpeaking: 0
+  text: Vale, sigue buscando.
+  childrenIDs: []
+  rect:
+    serializedVersion: 2
+    x: 748.6165
+    y: 168.15793
+    width: 300
+    height: 200
+  MoneyCost: 0
+  BombsCost: 0
+  Bombsfalsese: 0
+--- !u!114 &2358828172090697694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 2
+  m_EditorClassIdentifier: 
+  uniqueID: 2
+  isPlayerSpeaking: 1
+  text: no
+  childrenIDs:
+  - 3
+  rect:
+    serializedVersion: 2
+    x: 410.45865
+    y: 170.78949
+    width: 300
+    height: 200
+  MoneyCost: 0
+  BombsCost: 0
+  Bombsfalsese: 0
+--- !u!114 &2451598404545043317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  uniqueID: 1
+  isPlayerSpeaking: 0
+  text: Tienes Las bombas?
+  childrenIDs:
+  - 2
+  rect:
+    serializedVersion: 2
+    x: 35.45865
+    y: 140.52634
+    width: 300
+    height: 200
+  MoneyCost: 0
+  BombsCost: 0
+  Bombsfalsese: 0

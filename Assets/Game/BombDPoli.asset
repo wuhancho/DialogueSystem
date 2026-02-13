@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4069472687818408920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 4
+  m_EditorClassIdentifier: 
+  uniqueID: 4
+  isPlayerSpeaking: 0
+  text: Gracias buen trabajo
+  childrenIDs: []
+  rect:
+    serializedVersion: 2
+    x: 856.3187
+    y: 189.11426
+    width: 300
+    height: 200
+  MoneyCost: 0
+  BombsCost: 0
+  Bombsfalsese: 0
+--- !u!114 &-3032496616262825885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 3
+  m_EditorClassIdentifier: 
+  uniqueID: 3
+  isPlayerSpeaking: 1
+  text: Si
+  childrenIDs:
+  - 4
+  rect:
+    serializedVersion: 2
+    x: 441.30194
+    y: 334.52887
+    width: 300
+    height: 200
+  MoneyCost: 0
+  BombsCost: 5
+  Bombsfalsese: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e960bec5b5236749b281289ea60fa82, type: 3}
+  m_Name: BombDPoli
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 2451598404545043317}
+  - {fileID: 7153876691516474041}
+  - {fileID: -3032496616262825885}
+  - {fileID: -4069472687818408920}
+  isTrueDialogue: 0
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &2451598404545043317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  uniqueID: 1
+  isPlayerSpeaking: 1
+  text: Tienes Las bombas?
+  childrenIDs:
+  - 2
+  - 3
+  rect:
+    serializedVersion: 2
+    x: 29.361084
+    y: 152.72147
+    width: 300
+    height: 200
+  MoneyCost: 0
+  BombsCost: 0
+  Bombsfalsese: 0
+--- !u!114 &7153876691516474041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a710203670c9fa140b55d5de41d5d82b, type: 3}
+  m_Name: 2
+  m_EditorClassIdentifier: 
+  uniqueID: 2
+  isPlayerSpeaking: 1
+  text: Si (Entregar falsas)
+  childrenIDs:
+  - 4
+  rect:
+    serializedVersion: 2
+    x: 451.2481
+    y: 72.105286
+    width: 300
+    height: 200
+  MoneyCost: 0
+  BombsCost: 5
+  Bombsfalsese: 1
